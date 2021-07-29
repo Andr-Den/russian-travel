@@ -1,0 +1,31 @@
+.place__paragraphs {
+    margin: 0;
+    width: 484px;
+    padding: 0;
+    align-self: flex-start;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px){
+    .place__paragraphs {
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .place__paragraphs {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 860px){
+    .place__paragraphs {
+        width: 372px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .place__paragraphs {
+        width: 288px;
+        padding-left: 16px;
+    }
+}

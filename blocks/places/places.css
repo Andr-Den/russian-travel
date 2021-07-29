@@ -1,0 +1,47 @@
+.places {
+    margin: 92px auto 0;
+    width: 984px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 80px;
+}
+
+@media screen and (max-width: 1024px){
+    .places {
+        width: 928px;
+        margin: 92px auto 0;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .places {
+        width: 832px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .places {
+        width: 776px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .places {
+        margin: 88px auto 0;
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 764px){
+    .places {
+        width: calc(100% - 2*24px);
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places {
+        margin: 64px auto 0;
+        width: 320px;
+        gap: 50px;
+    }
+}
