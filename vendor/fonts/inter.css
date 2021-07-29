@@ -4,7 +4,7 @@
   font-weight: 100;
   font-display: swap;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
   src: url("Inter-Thin.woff2?v=3.19") format("woff2"),
        url("Inter-Thin.woff?v=3.19") format("woff");
 }
@@ -25,7 +25,7 @@
   font-style:  normal;
   font-weight: 300;
   font-display: swap;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   src: url("Inter-Light.woff2?v=3.19") format("woff2"),
        url("Inter-Light.woff?v=3.19") format("woff");
@@ -36,7 +36,7 @@
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
        url("Inter-Regular.woff?v=3.19") format("woff");
@@ -48,7 +48,7 @@
   font-weight: 500;
   font-display: swap;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
   src: url("Inter-Medium.woff2?v=3.19") format("woff2"),
        url("Inter-Medium.woff?v=3.19") format("woff");
 }
@@ -59,7 +59,7 @@
   font-weight: 600;
   font-display: swap;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
   src: url("Inter-SemiBold.woff2?v=3.19") format("woff2"),
        url("Inter-SemiBold.woff?v=3.19") format("woff");
 }
@@ -70,7 +70,7 @@
   font-weight: 700;
   font-display: swap;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
   src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
        url("Inter-Bold.woff?v=3.19") format("woff");
 }
@@ -90,46 +90,7 @@
   font-weight: 900;
   font-display: swap;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
   src: url("Inter-Black.woff2?v=3.19") format("woff2"),
        url("Inter-Black.woff?v=3.19") format("woff");
-}
-
-/* -------------------------------------------------------
-Variable font.
-Usage:
-
-  html { font-family: 'Inter', sans-serif; }
-  @supports (font-variation-settings: normal) {
-    html { font-family: 'Inter var', sans-serif; }
-  }
-*/
-@font-face {
-  font-family: 'Inter var';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
-}
-
-/* --------------------------------------------------------------------------
-[EXPERIMENTAL] Multi-axis, single variable font.
-
-Slant axis is not yet widely supported (as of February 2019) and thus this
-multi-axis single variable font is opt-in rather than the default.
-
-When using this, you will probably need to set font-variation-settings
-explicitly, e.g.
-
-  * { font-variation-settings: "slnt" 0deg }
-  .italic { font-variation-settings: "slnt" 10deg }
-
-*/
-@font-face {
-  font-family: 'Inter var experimental';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: oblique 0deg 10deg;
-  src: url("Inter.var.woff2?v=3.19") format("woff2");
 }
