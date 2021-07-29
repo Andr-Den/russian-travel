@@ -14,7 +14,7 @@
   font-style:  normal;
   font-weight: 200;
   font-display: swap;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   src: url("Inter-ExtraLight.woff2?v=3.19") format("woff2"),
        url("Inter-ExtraLight.woff?v=3.19") format("woff");
