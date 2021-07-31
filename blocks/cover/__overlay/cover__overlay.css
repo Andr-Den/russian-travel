@@ -2,12 +2,14 @@
     width: 100%;
     /* padding: 245px 312px 245px; */
     background:rgba(42, 44, 47, 0.3);
+    /* background-image: url(../../../sprint-3-images/__background.png); */
     /* z-index: 2; */
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     text-decoration: none;
+    max-height: 740px;
 }
 
 .cover__overlay:hover {

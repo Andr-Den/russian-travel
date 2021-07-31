@@ -4,6 +4,7 @@
     padding: 0;
     align-self: flex-start;
     color: #FFFFFF;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px){
@@ -20,6 +21,12 @@
 @media screen and (max-width: 860px){
     .place__paragraphs {
         width: 372px;
+    }
+}
+
+@media screen and (max-width: 795px){
+    .place__paragraphs {
+        width: 352px;
     }
 }
 

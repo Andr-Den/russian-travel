@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (max-width: 370px){
+@media screen and (max-width: 390px){
     .lead__title {
     font-size: 2.5rem;
     line-height: 2.75rem;
