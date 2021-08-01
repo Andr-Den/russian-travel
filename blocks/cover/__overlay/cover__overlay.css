@@ -1,9 +1,6 @@
 .cover__overlay {
     width: 100%;
-    /* padding: 245px 312px 245px; */
     background:rgba(42, 44, 47, 0.3);
-    /* background-image: url(../../../sprint-3-images/__background.png); */
-    /* z-index: 2; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -15,22 +12,3 @@
 .cover__overlay:hover {
     background:rgba(42, 44, 47, 0.8);
 }
-
-/* @media screen and (max-width: 1024px){
-    .cover__overlay {
-        width: 100%;
-        height: 640px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .cover__overlay {
-        height: 540px;
-    }
-}
-
-@media screen and (max-width: 440px){
-    .cover__overlay {
-        height: 200px;
-    }
-} */
