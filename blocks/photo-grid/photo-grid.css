@@ -1,5 +1,6 @@
 .photo-grid {
     margin: 92px auto 0;
+    padding: 0;
     width: 1184px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

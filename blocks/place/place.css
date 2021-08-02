@@ -8,13 +8,6 @@
     box-sizing: border-box;
 }
 
- @media screen and (max-width: 1201px){
-    .place {
-        column-gap: px;
-    }
-
-}
-
 @media screen and (max-width: 1024px){
     .place {
         column-gap: 32px;
