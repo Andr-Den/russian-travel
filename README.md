@@ -9,7 +9,7 @@
 * работа с ветками на GitHub
 * размещение проекта на GitHub Pages.
 
-Ссылка на проект: https://telcontar2021.github.io/russian-travel/index.html
+Ссылка на проект: https://andr-den.github.io/russian-travel/index.html
 
 
 Проект создавался в Visual Studio Code. Version: 1.57.0.  
